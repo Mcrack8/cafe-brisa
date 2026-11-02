@@ -1,10 +1,14 @@
 
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <title>Café Brisa - Menú</title>
-    <link rel="stylesheet" href="Estilo.css">
+
+    <link rel="stylesheet" href="CSS/styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -21,40 +25,114 @@
     </header>
 
     <main>
-        <h2>Nuestro menú</h2>
 
-        <p>
-            Sabores preparados para acompañar tus mejores momentos.
-        </p>
+        <section>
+            <h2>Nuestro menú</h2>
 
-        <h2>Bebidas calientes</h2>
+            <p>
+                Preparamos bebidas y postres para acompañar
+                tus momentos favoritos.
+            </p>
+        </section>
 
-        <p>Americano - $40</p>
-        <p>Espresso - $35</p>
-        <p>Latte - $50</p>
-        <p>Capuchino - $48</p>
-        <p>Chocolate caliente - $45</p>
+        <hr>
 
-        <h2>Bebidas frías</h2>
+        <!-- Bebidas calientes -->
+        <section>
+            <h2>Bebidas calientes</h2>
 
-        <p>Frappé de vainilla - $60</p>
-        <p>Cold Brew - $50</p>
-        <p>Latte helado - $55</p>
-        <p>Frappé de chocolate - $65</p>
+            <div class="productos">
 
-        <h2>Postres</h2>
+                <div class="producto">
+                    <h3>Americano</h3>
+                    <p>Café clásico de sabor intenso.</p>
+                    <strong>$40</strong>
+                </div>
 
-        <p>Brownie de chocolate - $38</p>
-        <p>Cheesecake de fresa - $55</p>
-        <p>Galleta de chispas de chocolate - $30</p>
-        <p>Rebanada de pastel de zanahoria - $50</p>
+                <div class="producto">
+                    <h3>Latte</h3>
+                    <p>Espresso acompañado de leche cremosa.</p>
+                    <strong>$50</strong>
+                </div>
 
-        <p>
-            Todos nuestros productos están preparados
-            para ofrecerte una experiencia especial.
-        </p>
+                <div class="producto">
+                    <h3>Capuchino</h3>
+                    <p>Café con leche y espuma suave.</p>
+                    <strong>$48</strong>
+                </div>
 
-        <a href="Contacto.html">Visítanos</a>
+                <div class="producto">
+                    <h3>Chocolate caliente</h3>
+                    <p>Una bebida dulce y reconfortante.</p>
+                    <strong>$45</strong>
+                </div>
+
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Bebidas frias -->
+        <section>
+            <h2>Bebidas frías</h2>
+
+            <div class="productos">
+
+                <div class="producto">
+                    <h3>Frappé de vainilla</h3>
+                    <p>Bebida fría con un toque de vainilla.</p>
+                    <strong>$60</strong>
+                </div>
+
+                <div class="producto">
+                    <h3>Cold Brew</h3>
+                    <p>Café preparado en frío.</p>
+                    <strong>$50</strong>
+                </div>
+
+                <div class="producto">
+                    <h3>Latte helado</h3>
+                    <p>Espresso con leche y hielo.</p>
+                    <strong>$55</strong>
+                </div>
+
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Postres -->
+        <section>
+            <h2>Postres</h2>
+
+            <div class="productos">
+
+                <div class="producto">
+                    <h3>Brownie</h3>
+                    <p>Pastelito de chocolate.</p>
+                    <strong>$38</strong>
+                </div>
+
+                <div class="producto">
+                    <h3>Cheesecake</h3>
+                    <p>Pastel de queso con fresa.</p>
+                    <strong>$55</strong>
+                </div>
+
+                <div class="producto">
+                    <h3>Galleta</h3>
+                    <p>Galleta con chispas de chocolate.</p>
+                    <strong>$30</strong>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="destacado">
+            <p>Un buen café siempre es una buena idea.</p>
+            <a class="boton" href="Contacto.html">Visítanos</a>
+        </section>
+
     </main>
 
     <footer>
