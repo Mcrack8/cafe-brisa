@@ -1,0 +1,152 @@
+
+/* DISEÑO GENERAL */
+
+body {
+    background-color: #f5f0e8;
+    color: #3e302b;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+
+/* ENCABEZADO */
+
+header {
+    background-color: #49372f;
+    color: white;
+    padding: 25px;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+header p {
+    color: #e6d8ca;
+}
+
+
+/* NAVEGACION */
+
+nav {
+    background-color: #6d5145;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+
+/* Efecto al pasar el cursor */
+
+nav a:hover {
+    color: #e6c9a8;
+}
+
+
+/* CONTENIDO PRINCIPAL */
+
+main {
+    width: 85%;
+    margin: auto;
+    padding: 25px;
+}
+
+h2 {
+    color: #795548;
+    font-family: 'Playfair Display', serif;
+    margin-top: 25px;
+}
+
+h3 {
+    color: #49372f;
+    font-family: 'Playfair Display', serif;
+}
+
+main p {
+    line-height: 1.6;
+}
+
+
+/* SECCIONES */
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#bienvenida {
+    padding: 35px;
+}
+
+.destacado {
+    background-color: #eee3d5;
+    border-radius: 12px;
+    padding: 25px;
+}
+
+
+/* TARJETAS DE PRODUCTOS */
+
+.productos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.producto {
+    background-color: white;
+    width: 220px;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.producto strong {
+    color: #795548;
+    font-size: 18px;
+}
+
+
+/* BOTONES */
+
+.boton {
+    display: inline-block;
+    background-color: #6d5145;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.boton:hover {
+    background-color: #49372f;
+}
+
+
+/* SEPARADORES */
+
+hr {
+    border: 1px solid #dfd2c3;
+}
+
+
+/* PIE DE PAGINA */
+
+footer {
+    background-color: #49372f;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+small {
+    color: #795548;
+}
